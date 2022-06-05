@@ -124,7 +124,7 @@ int main()
                      while(strlen(type) < 3 || strlen(type) > 30);
 
                      printf("Sukses ditambahkan");
-                     push_depan(type);
+                     push_depan(type,qty);
                      getchar();
                      break;
 
